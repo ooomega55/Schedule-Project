@@ -15,13 +15,12 @@ $(document).ready( function () {
         $.each(scheduleData, function (i, schedule) {
             //create new row in table
             let row = "<tr>";
-            
+            //add class name, teacher name, room number, and days to row
             row += "<td>" + schedule.class_name + "</td>"
             row += "<td>" + schedule.teacher_name + "</td>";
             row += "<td>" + schedule.room_number + "</td>";
             row += "<td>" + schedule.days.join(', ') + "</td>";
             row += "</td>"
-
             //append the new row to the table body
             $('#schedule-table-body').append(row)
         })
