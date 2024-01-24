@@ -5,8 +5,25 @@ $(document).ready(function () {
     //store schedule data in variable
     let scheduleData = data.schedule;
 
-    //populate table with schedule data
+    //populate table with filtered schedule data
     populateTable(scheduleData);
+
+
+
+    //listen for changes to the dropdown menu
+    $("#day-selector").on("change", function() {
+      //get selected day
+      let selectedDay = $(this).val();
+
+      //filter schedule data based on the selected Day
+      let filteredData = scheduleData.filter( function(schedule) {
+        return selectedDay === "all" || schedule.days.includes(selectedDay);
+      });
+      
+      populateTable(filteredData);
+    });
+
+
   });
   //function to populate table with data
   function populateTable(scheduleData) {
