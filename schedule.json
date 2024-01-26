@@ -1,75 +1,53 @@
 {
     "schedule": [
         {
-            "days": ["Monday", "Wednesday", "Friday"],
-            "class_name": "Cyber Security",
-            "room_number": "E202",
-            "teacher_name": "Ms. Rehwinkel"
+            "days": ["A-Day", "B-Day", "C-Day", "E-Day", "F-Day"],
+            "class_name": "Applied Art 1",
+            "room_number": "D101",
+            "teacher_name": "Ms. Casella"
         },
 
         {
-            "days": ["Tuesday", "Wednesday", "Thursday"],
-            "class_name": "Biology",
-            "room_number": "D201",
-            "teacher_name": "Ms. Tsakiris"
+            "days": ["A-Day", "B-Day", "D-Day", "E-Day", "F-Day"],
+            "class_name": "English IV",
+            "room_number": "E102",
+            "teacher_name": "Ms. Tutela"
         },
 
         {
-            "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-            "class_name": "Web Design",
+            "days": ["A-Day", "C-Day", "D-Day", "E-Day", "G-Day"],
+            "class_name": "Gym/Health 12",
+            "room_number": "C100",
+            "teacher_name": "Mr. Scalzo"
+        },
+
+        {
+            "days": ["B-Day", "C-Day", "D-Day", "F-Day", "G-Day"],
+            "class_name": "AP Comp Sci P",
             "room_number": "B110",
             "teacher_name": "Ms. Leonard"
-        }
-
-    ],
-
-
-    
-    "EthanSchedule" [
-        {
-            "days": ["Monday", "Wednesday", "Friday"],
-            "class_name": "Cyber Security",
-            "room_number": "E202",
-            "teacher_name": "Ms. Rehwinkel"
         },
 
         {
-            "days": ["Tuesday", "Wednesday", "Thursday"],
-            "class_name": "Biology",
-            "room_number": "D201",
-            "teacher_name": "Ms. Tsakiris"
+            "days": ["A-Day", "B-Day", "D-Day", "E-Day", "G-Day"],
+            "class_name": "Precalc",
+            "room_number": "E215",
+            "teacher_name": "Mr. Ploe"
         },
 
         {
-            "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "days": ["A-Day", "C-Day", "D-Day", "F-Day", "G-Day"],
+            "class_name": "Financial Literacy",
+            "room_number": "A132",
+            "teacher_name": "Mr. Morgan"
+        },
+
+        {
+            "days": ["B-Day", "C-Day", "E-Day", "F-Day", "G-Day"],
             "class_name": "Web Design",
-            "room_number": "B110",
-            "teacher_name": "Ms. Leonard"
+            "room_number": "B111",
+            "teacher_name": "Mr. Kilgore"
         }
-    ],
 
-
-
-    "TylerSchedule" [
-        {
-            "days": ["Monday", "Wednesday", "Friday"],
-            "class_name": "Cyber Security",
-            "room_number": "E202",
-            "teacher_name": "Ms. Rehwinkel"
-        },
-
-        {
-            "days": ["Tuesday", "Wednesday", "Thursday"],
-            "class_name": "Biology",
-            "room_number": "D201",
-            "teacher_name": "Ms. Tsakiris"
-        },
-
-        {
-            "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-            "class_name": "Web Design",
-            "room_number": "B110",
-            "teacher_name": "Ms. Leonard"
-        }
-    ],
+    ]
 }
