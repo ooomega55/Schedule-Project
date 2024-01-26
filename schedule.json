@@ -3,49 +3,49 @@
         {
             "days": ["A-Day", "B-Day", "C-Day", "E-Day", "F-Day"],
             "class_name": "Applied Art 1",
-            "room_number": "D101",
+            "wing": "D-wing",
             "teacher_name": "Ms. Casella"
         },
 
         {
             "days": ["A-Day", "B-Day", "D-Day", "E-Day", "F-Day"],
             "class_name": "English IV",
-            "room_number": "E102",
+            "wing": "E-wing",
             "teacher_name": "Ms. Tutela"
         },
 
         {
             "days": ["A-Day", "C-Day", "D-Day", "E-Day", "G-Day"],
             "class_name": "Gym/Health 12",
-            "room_number": "C100",
+            "wing": "C-wing",
             "teacher_name": "Mr. Scalzo"
         },
 
         {
             "days": ["B-Day", "C-Day", "D-Day", "F-Day", "G-Day"],
             "class_name": "AP Comp Sci P",
-            "room_number": "B110",
+            "wing": "B-wing",
             "teacher_name": "Ms. Leonard"
         },
 
         {
             "days": ["A-Day", "B-Day", "D-Day", "E-Day", "G-Day"],
             "class_name": "Precalc",
-            "room_number": "E215",
+            "wing": "E-wing",
             "teacher_name": "Mr. Ploe"
         },
 
         {
             "days": ["A-Day", "C-Day", "D-Day", "F-Day", "G-Day"],
             "class_name": "Financial Literacy",
-            "room_number": "A132",
+            "wing": "A-wing",
             "teacher_name": "Mr. Morgan"
         },
 
         {
             "days": ["B-Day", "C-Day", "E-Day", "F-Day", "G-Day"],
             "class_name": "Web Design",
-            "room_number": "B111",
+            "wing": "B-wing",
             "teacher_name": "Mr. Kilgore"
         }
 

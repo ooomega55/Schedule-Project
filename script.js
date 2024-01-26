@@ -24,6 +24,20 @@ $(document).ready(function () {
     });
 
 
+
+    $("#wing-selector").on("change", function() {
+      //get selected day
+      let selectedWing = $(this).val();
+
+      //filter schedule data based on the selected Day
+      let filteredData = scheduleData.filter( function(schedule) {
+        return selectedWing === "allWings" || schedule.wing.includes(selectedWing);
+      });
+      
+      populateTable(filteredData);
+    });
+
+
   });
   //function to populate table with data
   function populateTable(scheduleData) {
@@ -35,7 +49,7 @@ $(document).ready(function () {
       //add class name, teacher name, room number, and days to row
       row += "<td>" + schedule.class_name + "</td>";
       row += "<td>" + schedule.teacher_name + "</td>";
-      row += "<td>" + schedule.room_number + "</td>";
+      row += "<td>" + schedule.wing + "</td>";
       row += "<td>" + schedule.days.join(", ") + "</td>";
       row += "</td>";
       //append the new row to the table body

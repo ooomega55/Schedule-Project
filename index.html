@@ -28,8 +28,8 @@
                 <h1>My 2023-24 School Schedule</h1>
 
                 <h5>Choose an option to see classes that meet on select days</h5>
-                <select name="daySelector" id="day-selector" class="form-select">
-                    <option value="all">All</option>
+                <select name="daySelector" id="day-selector" class="form-select col-6">
+                    <option value="all">All Days</option>
                     <option value="A-Day">A Day</option>
                     <option value="B-Day">B Day</option>
                     <option value="C-Day">C Day</option>
@@ -39,12 +39,21 @@
                     <option value="G-Day">G Day</option>
                 </select>
 
+                <select name="wingSelector" id="wing-selector" class="form-select col-6">
+                    <option value="allWings">All Wings</option>
+                    <option value="A-wing">A wing</option>
+                    <option value="B-wing">B wing</option>
+                    <option value="C-wing">C wing</option>
+                    <option value="D-wing">D wing</option>
+                    <option value="E-wing">E wing</option>
+                </select>
+
                 <table class="table">
                     <thead>
                         <tr>
                             <th>Class Name</th>
                             <th>Teacher Name</th>
-                            <th>Room Number</th>
+                            <th>Wing</th>
                             <th>Days</th>
                         </tr>
                     </thead>
